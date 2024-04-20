@@ -135,8 +135,8 @@ def check_win(board, mine_locations):
     return True  # Todas las casillas seguras han sido reveladas
 
 # Corremos el juego
-def play_minesweeper():
+def play_buscaminas():
     board, mine_locations = start_game()
     main_game_loop(board, mine_locations)
 
-play_minesweeper()
+play_buscaminas()
